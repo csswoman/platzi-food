@@ -6,15 +6,17 @@
     <title>Card / Product</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="min-h-screen bg-gray-400 mx-4">
-    <div class="bg-white mt-4">
+<body class="min-h-screen bg-gray-400 mx-4 mb-8">
+    <div class="mt-4">
         <div>
-            <img src="./assets/burger.png" alt="Hamburger">
+            <img class="rounded-lg" src="./assets/burger.png" alt="Hamburger">
         </div>
-        <h2>Título</h2>
-        <p>Descripción</p>
-        <div>Precio</div>
-        <div>Calificación / reseñas</div>
+        <div class="relative mx-2 p-2 shadow-lg bg-white rounded-lg -mt-2">
+            <h2 class="text-xl tracking-tight font-semibold uppercase text-gray-900">Hamburguesa con Queso</h2>
+            <p class="text-gray-700 leading-snug">Deliciosa hamburguesa con queso y aderezo de chipotle.</p>
+            <div class="mt-2 text-sm font-semibold text-gray-700">MXN $15</div>
+            <div class="mt-2 text-xs text-yellow-600">&starf;&starf;&starf;&starf;&star; / 20 reseñas</div>
+        </div>
     </div>
 </body>
 </html>
